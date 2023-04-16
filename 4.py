@@ -107,7 +107,7 @@ class StringFormatter():
         self.__string = word[:-1]
 
 
-def task_4():
+if __name__ == "__main__":
     st = StringFormatter("Hello guests my GoodBoy Goodnight end")
     st.delete(5)
     st.replace()
